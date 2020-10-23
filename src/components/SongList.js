@@ -27,7 +27,7 @@ class SongList extends React.Component {
 }
 
 const mapStateToState = (state) => {
-  console.log(state);
+  // console.log(state);
   return { songs: state.songs };
 };
 
